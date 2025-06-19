@@ -22,7 +22,7 @@ services:
     volumes:
       - drizzle_data:/var/lib/postgresql/data
     ports:
-      - '5433:5433'  # Otro puerto expuesto
+      - '5433:5432'  # Otro puerto expuesto
 
 volumes:
   prisma_data:
